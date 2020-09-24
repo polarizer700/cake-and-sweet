@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <title>Десерт Ежа</title>
+</head>
+<body>
+<div class="container">
+
+            <div class="banner">
+                <div class="banner_inside">
+                  <header>
+                    <a href="index.html"><img src="img/logo.svg" alt="logo" class="header_logo"></a>
+                    <nav>
+                      <ul>
+                        <li><a href="#about">Обо мне</a></li>
+                        <li><a href="#toppings">Начинки</a></li>
+                        <li><a href="#cakes">Торты</a></li>
+                        <li><a href="#macarons">Макаронс</a></li>
+                        <li><a href="#cupcakes">Капкейки</a></li>
+                        <li><a href="#form">Заказывай</a></li>
+                      </ul>
+                    </nav>
+                    <div class="networks">
+                      <a href="tel:+7(926)-779-72-48" target="_blank"><img src="img/phone.svg" alt="phone"></a>
+                      <a href="https://wa.me/79267797248" target="_blank"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+                      <a href="https://www.instagram.com/panilena/?hl=ru" target="_blank"><img src="img/instagram.svg" alt="instagram"></a>
+                    </div>
+                    <div class="burger-menu" id="burgerMenu"><i class="fas fa-bars"></i></div>
+                  </header>
+
+                  <div class="banner_inside_box">
+                    <h1>Торты ручной работы</h1>
+                    <h2>Только натуральная начинка</h2>
+                    <a href="#form"><button>заказать</button></a>
+
+                  </div>
+                </div>
+            </div>
+
+            <div class="menuPopup" id="mypopup">
+                <div class="popup_container">
+                  <div class="close_button">
+                    <span class="close">&times;</span>
+                  </div>
+                      <ul class="menuPop touch">
+                        <li ><a href="#about" class="popupLink">Обо мне</a></li>
+                        <li><a href="#toppings" class="popupLink">Начинки</a></li>
+                        <li ><a href="#cakes" class="popupLink">Торты</a></li>
+                        <li><a href="#macarons" class="popupLink">Макаронс</a></li>
+                        <li><a href="#cupcakes" class="popupLink">Капкейки</a></li>
+                        <li><a href="#form" class="popupLink">Заказывай</a></li>
+                      </ul>
+
+                <div class="networks">
+                  <a href="tel:+7(926)-779-72-48" target="_blank"><img src="img/phone.svg" alt="phone"></a>
+                  <a href="https://wa.me/79267797248" target="_blank"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+                  <a href="https://www.instagram.com/panilena/?hl=ru" target="_blank"><img src="img/instagram.svg" alt="instagram"></a>
+                </div>
+                </div>
+              </div>
+
+
+            <div class="about" id="about">
+                  <h3 class="block">Обо мне</h3>
+                  <div class="about__content">
+                    <div class="about__content_img">
+                    <img src="img/about.jpg" alt="about">
+                    </div>
+                    <p class="about_text">Всем Привет!<br>
+                      <br>
+                      Меня зовут Елена, занимаюсь изготовлением кондитерских изделий. С&nbsp;детства нежно люблю печь и&nbsp;радовать людей вкусными и&nbsp;полезными сладостями.
+                      Для меня важно, что ты вкладываешь в&nbsp;продукт.
+                      Это и&nbsp;частичка твоей души и&nbsp;честность и&nbsp;вовлеченность в&nbsp;дело, которое тебя вдохновляет.
+                      <br>
+                      <br>
+                      В 2015 году получила проф.образование кондитера.
+                      Постоянно прохожу обучение у&nbsp;российских шеф-кондитеров, ведь в&nbsp;этом деле нет предела совершенству.
+                    </p>
+                  </div>
+
+            </div>
+
+            <div class="why">
+              <h3 class="block">Почему стоит выбирать мои кондитерские изделия</h3>
+              <div class="why_content">
+                <div class="why_content_plus">
+                  <img src="img/supermarket.svg" alt="supermarket">
+                  <p>Натуральные и свежие продукты</p>
+                </div>
+
+                <div class="why_content_plus">
+                  <img src="img/gear.svg" alt="gear">
+                  <p>Делаю без задержек</p>
+                </div>
+
+                <div class="why_content_plus">
+                  <img src="img/cakeee.svg" alt="cake">
+                  <p>Большой выбор вкусов</p>
+                </div>
+
+                <div class="why_content_plus">
+                  <img src="img/delivery.svg" alt="delivery">
+                  <p>Быстрая и качественная доставка</p>
+                </div>
+              </div>
+            </div>
+
+  <div class="toppings" id="toppings">
+    <h3 class="block">Начинки</h3>
+
+      <section class="ac-container">
+       <div class="topping">
+         <input id="ac-1" name="accordion-1" type="checkbox" checked />
+         <label for="ac-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Кейкпопсы</label>
+         <article class="ac-small oneAc">
+           <div class="ac-small_inside">
+           <img src="img/cake-pop.svg" alt="cakepop">
+           <p>Шоколадные</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake-pop.svg" alt="cakepop">
+           <p>Ванильные</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake-pop.svg" alt="cakepop">
+           <p>Красный бархат</p>
+           </div>
+         </article>
+       </div>
+       <div class="topping">
+         <input id="ac-2" name="accordion-1" type="checkbox" />
+         <label for="ac-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Макаронс</label>
+         <article class="ac-small twoAc">
+           <div class="ac-small_inside">
+           <img src="img/macaron.svg" alt="macaron">
+           <p>Соленая карамель</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/macaron.svg" alt="macaron">
+           <p>Манго-маракуйя</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/macaron.svg" alt="macaron">
+           <p>Фисташка</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/macaron.svg" alt="macaron">
+           <p>Шоколад-маракуйя</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/macaron.svg" alt="macaron">
+           <p>Шоколад-кофе</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/macaron.svg" alt="macaron">
+           <p>Бейлис</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/macaron.svg" alt="macaron">
+           <p>Лаванда</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/macaron.svg" alt="macaron">
+           <p>Сыр-груша</p>
+           </div>
+         </article>
+       </div>
+       <div class="topping">
+         <input id="ac-3" name="accordion-1" type="checkbox" />
+         <label for="ac-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Капкейки</label>
+         <article class="ac-small thirdAc">
+           <div class="ac-small_inside">
+           <img src="img/muffin.svg" alt="muffin">
+           <p>Морковный с карамелью</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/muffin.svg" alt="muffin">
+           <p>Сникерс с карамелью</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/muffin.svg" alt="muffin">
+           <p>Шоколадный</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/muffin.svg" alt="muffin">
+           <p>Кофе-шоколад</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/muffin.svg" alt="muffin">
+           <p>Апельсин с манго</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/muffin.svg" alt="muffin">
+           <p>Ягодный с клубникой</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/muffin.svg" alt="muffin">
+           <p>Фисташка с малиной</p>
+           </div>
+         </article>
+       </div>
+       <div class="topping">
+         <input id="ac-4" name="accordion-1" type="checkbox" />
+         <label for="ac-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Муссовые торты</label>
+         <article class="ac-small forthAc">
+           <div class="ac-small_inside">
+           <img src="img/cake2.svg" alt="cake">
+           <p>Чизкейк три шоколада</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake2.svg" alt="cake">
+           <p>Тропик</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake2.svg" alt="cake">
+           <p>Сникерс</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake2.svg" alt="cake">
+           <p>Как Тео /миндальный бисквит и пролине, хрустящая прослойка, шокмусс</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake2.svg" alt="cake">
+           <p>Сливочная клубника</p>
+           </div>
+       </div>
+       <div class="topping">
+         <input id="ac-5" name="accordion-1" type="checkbox" />
+         <label for="ac-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Бисквитные торты</label>
+         <article class="ac-small fiveAc">
+           <div class="ac-small_inside">
+           <img src="img/cake3.svg" alt="cake">
+           <p >Клубничный с муссовой прослойкой</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake3.svg" alt="cake">
+           <p class="hoverPower">Клубника Базилик </p>
+            <span class="hoverAction">(бисквит + взбитое клубничное желе + крем с базиликом)</span>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake3.svg" alt="cake">
+           <p>Изумрудный (бисквит со шпинатом+кремчиз+ягоды малины, либо сделать прослойку малинового конфи)</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake3.svg" alt="cake">
+           <p class="hoverPower"> Праздник </p>
+           <span class="hoverAction">(3 разных бисквита: с орео, с шоколадными каплями, шоколадный + кремчиз чистый или с добавлением орео+соленая карамель)</span>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake3.svg" alt="cake">
+           <p>Красный бархат (красный бисквит + кремчиз). Можно сделать прослойку из ягод/конфи</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake3.svg" alt="cake">
+           <p>Морковный (морковный бисквит + кремчиз + лимонный ганаш)</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake3.svg" alt="cake">
+           <p>Медовый (медовый бисквит + сметанный крем с карамелью)</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake3.svg" alt="cake">
+           <p class="hoverPower">БлэкШОК</p>
+           <span class="hoverAction">(шоколадный бисквит + ганаш на молочном шоколаде)</span>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake3.svg" alt="cake">
+           <p>Ягодный (ванильный бисквит + ягодное желе + сливочноягодный крем на маскарпоне)</p>
+           </div>
+           <div class="ac-small_inside">
+           <img src="img/cake3.svg" alt="cake">
+           <p>Птичье молоко</p>
+           </div>
+         </article>
+       </div>
+     </section>
+  </div>
+
+
+            <div class="cakes" id="cakes">
+                <h3 class="block">Торты</h3>
+                <div class="cakes_slider">
+                  <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(img/cake_1.png);height:364px; background-repeat: no-repeat; background-size:contain;">
+                          <div class="swiper_wrapper_inside">
+                          <p>Красный бархат (красный бисквит + кремчиз). Можно сделать прослойку из ягод/конфи</p>
+                        </div>
+                        </div>
+                        <div class="swiper-slide"><img src="img/cake_2.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_3.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_4.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_5.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_6.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_7.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_8.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_9.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_10.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_11.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_12.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_13.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_14.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_15.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_16.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_17.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_18.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_19.png" alt="cake"></div>
+                        <div class="swiper-slide"><img src="img/cake_20.png" alt="cake"></div>
+
+                      </div>
+                      <!-- Add Pagination -->
+                      <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="macarons" id="macarons">
+              <h3 class="block">Макаронс</h3>
+              <div class="cakes_slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/macaron_1.png" alt="macaron"></div>
+                      <div class="swiper-slide"><img src="img/macaron_2.png" alt="macaron"></div>
+                      <div class="swiper-slide"><img src="img/macaron_3.png" alt="macaron"></div>
+                      <div class="swiper-slide"><img src="img/macaron_4.png" alt="macaron"></div>
+                      <div class="swiper-slide"><img src="img/macaron_5.png" alt="macaron"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="cupcakes" id="cupcakes">
+              <h3 class="block">Капкейки и кейкпопсы</h3>
+              <div class="cakes_slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/cupcake_1.png" alt="cupcake"></div>
+                      <div class="swiper-slide"><img src="img/cupcake_2.png" alt="cupcake"></div>
+                      <div class="swiper-slide"><img src="img/cupcake_3.png" alt="cupcake"></div>
+                      <div class="swiper-slide"><img src="img/cupcake_4.png" alt="cupcake"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="blockForm" id="form">
+              <h3 class="block">Понравились кондитерские изделия?<br>Оставь заявку и я свяжусь с Вами.</h3>
+              <div class="blockForm_content">
+                <div class="blockForm_content_img">
+                <img src="img/cake_15.png" alt="cake">
+                </div>
+                <form action="https://formspree.io/xgepeqan" method="post">
+                  <input type="text" placeholder="Имя" name="Имя">
+                  <input type="tel" placeholder="Телефон" pattern="[0-9]{10,11}" name="телефон">
+                  <input type="email" placeholder="E-mail" name="email">
+                  <select name="Выбор">
+                    <option name="Торты">Торты</option>
+                    <option name="Макаронс">Макаронс</option>
+                    <option name="Кейкпосы">Кейкпосы</option>
+                    <option name="Капкейки">Капкейки</option>
+                  </select>
+                  <textarea name="Пожелания" rows="8" cols="80" placeholder="Введите какую начинку Вы хотели, и детали к заказу"></textarea>
+                  <button>Отправить</button>
+                </form>
+              </div>
+            </div>
+
+            <footer>
+
+                <div class="footer_content_menu">
+                  <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+                  <nav>
+                    <ul>
+                      <li><a href="#about">Обо мне</a></li>
+                      <li><a href="#toppings">Начинки</a></li>
+                      <li><a href="#cakes">Торты</a></li>
+                      <li><a href="#macarons">Макаронс</a></li>
+                      <li><a href="#cupcakes">Капкейки</a></li>
+                      <li><a href="#form">Заказывай</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="footer_content_connection">
+                    <div class="connection_phone">
+                      <a href="tel:+7(926)-779-72-48" target="_blank"><img src="img/phone.svg" alt="phone"></a>
+                      <a href="tel:+7(926)-779-72-48" target="_blank">+7(926)-779-72-48</a>
+                    </div>
+                    <div class="connection_networks">
+                      <a href="https://wa.me/79267797248" target="_blank"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+                      <a href="https://www.instagram.com/panilena/?hl=ru" target="_blank"><img src="img/instagram.svg" alt="instagram"></a>
+                    </div>
+                </div>
+
+            </footer>
+
+</div>
+<script src="scriptMenu.js"></script>
+<script src="https://kit.fontawesome.com/d978d2968a.js" crossorigin="anonymous"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 'auto',
+   centeredSlides: true,
+   spaceBetween: 30,
+   pagination: {
+     el: '.swiper-pagination',
+     clickable: true,
+   },
+    });
+  </script>
+</body>
+</html>
